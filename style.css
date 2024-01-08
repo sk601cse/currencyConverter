@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.amount{
+    margin-right: 90px;
+}
+.amount p{
+    margin-right: 130px;
+    font-size: 1rem;
+}
+.amount input{
+    border-radius: 2px;
+    border: 1px solid gray;
+    height: 1.5rem;
+    max-width: 100%;
+    font-size: 17px;
+
+}
+
+.container{
+    text-align: center;
+    background-color:white;
+    padding:2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    min-width: 40vh;
+}
+h2{
+    margin-top: 0px;
+}
+.form{
+    margin: 2rem 0rem 2rem 0rem
+} 
+.dropdown-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.9rem;
+
+}
+.select-container{
+    margin-top: 1rem;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3rem;
+    min-width: 5.5rem;
+    border: 1px solid rgb(77, 73, 73);
+    border-radius: 9px;
+
+    
+}
+ select{
+    height: 1.5rem;
+    border: 1px solid grey;
+    border-radius: 6px;
+
+}
+.select-container,img{
+    height: 2rem;
+}
+.msg{
+    margin-top: 1.5rem;
+    margin-right: 0px;
+    font-size: 1.4rem;
+}
+.btn{
+    margin-top: 1.6rem;
+    height: 2rem;
+    width: 15rem;
+    font-size: 1.1rem;
+}
